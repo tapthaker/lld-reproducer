@@ -13,3 +13,6 @@ Steps to reproduce:
 
 
 Expected: `test_XCTAssertEqual` should pass but it fails
+
+
+![XCTAssertEqual Failure](./screenshot/xctassertion_failure.png)
