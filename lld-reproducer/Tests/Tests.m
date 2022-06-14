@@ -15,15 +15,15 @@
 @implementation Tests
 
 - (void)test_XCTAssertEqual {
-    XCTAssertEqual(@"Hello", [Lib returnHello]);
+    XCTAssertEqual(@"", [Lib returnHello]);
 }
 
 - (void)test_XCTAssertEqualObjects {
-    XCTAssertEqualObjects(@"Hello", [Lib returnHello]);
+    XCTAssertEqualObjects(@"", [Lib returnHello]);
 }
 
 - (void)test_isEqualToString {
-    XCTAssertTrue([[Lib returnHello] isEqualToString:@"Hello"]);
+    XCTAssertTrue([[Lib returnHello] isEqualToString:@""]);
 }
 
 @end

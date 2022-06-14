@@ -10,7 +10,7 @@
 @implementation Lib
 
 +(NSString*)returnHello {
-    return @"Hello";
+    return @"";
 }
 
 @end
